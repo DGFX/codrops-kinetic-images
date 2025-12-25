@@ -1,36 +1,36 @@
 {
-    "name": "codrops-kinetic-images",
-    "version": "0.1.0",
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "dev": "next dev --turbopack",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint",
-        "format": "prettier --write .",
-        "format:check": "prettier --check ."
-    },
-    "dependencies": {
-        "react": "^19.0.0",
-        "react-dom": "^19.0.0",
-        "next": "15.3.4",
-        "three": "^0.175.0",
-        "@react-three/drei": "^10.0.6",
-        "@react-three/fiber": "^9.1.2",
-        "sass": "^1.86.3",
-        "scss": "^0.2.4",
-        "leva": "^0.10.0"
-    },
-    "devDependencies": {
-        "eslint": "^9",
-        "eslint-config-next": "15.3.4",
-        "@eslint/eslintrc": "^3",
-        "glslify": "^7.1.1",
-        "glslify-loader": "^2.0.0",
-        "file-loader": "^6.2.0",
-        "raw-loader": "^4.0.2",
-        "url-loader": "^4.1.1",
-        "prettier": "^3.5.3"
-    }
+  "name": "codrops-kinetic-images",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.3.8",
+    "three": "^0.175.0",
+    "@react-three/drei": "^10.0.6",
+    "@react-three/fiber": "^9.1.2",
+    "sass": "^1.86.3",
+    "scss": "^0.2.4",
+    "leva": "^0.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "@eslint/eslintrc": "^3",
+    "glslify": "^7.1.1",
+    "glslify-loader": "^2.0.0",
+    "file-loader": "^6.2.0",
+    "raw-loader": "^4.0.2",
+    "url-loader": "^4.1.1",
+    "prettier": "^3.5.3"
+  }
 }
